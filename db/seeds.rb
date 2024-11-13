@@ -8,4 +8,8 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Exercise.create(name: "Jim", description: "his name is Jim", image_url: "", video_url: "")
+# Exercise.create(name: "Jim", description: "his name is Jim", image_url: "", video_url: "")
+
+# User.create(name: "Jimmy", email: "jimmyboy12@gmail.com", image_url:"")
+
+Routine.create(user_id: 1, exercise_id: 1, reps: 8, sets: 3)

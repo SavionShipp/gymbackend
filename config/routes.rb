@@ -18,4 +18,6 @@ Rails.application.routes.draw do
   # post "/exercise" => 
 
   get "/routines" => "routines#index"
+
+  post "users" => "users#create"
 end

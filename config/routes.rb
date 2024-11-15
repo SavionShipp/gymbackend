@@ -20,4 +20,6 @@ Rails.application.routes.draw do
   get "/routines" => "routines#index"
 
   post "users" => "users#create"
+
+   post "/sessions" => "sessions#create"
 end

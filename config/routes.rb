@@ -15,9 +15,11 @@ Rails.application.routes.draw do
 
   get "/exercise/:id" => "exercises#show"
 
-  # post "/exercise" => 
+  post "/exercise" => "exercises#create"
 
   get "/routines" => "routines#index"
+
+  post "/routines" => "routines#create"
 
   post "users" => "users#create"
 
